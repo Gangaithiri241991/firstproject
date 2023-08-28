@@ -1,0 +1,363 @@
+li{
+  list-style: none;
+  
+
+}
+.header {
+  display: flex;
+  justify-items: left;
+  padding-left:50px;
+  padding-top: 12px;
+  gap:10px;
+ 
+  
+}
+.header1{
+  
+  
+  width:100%;
+  padding: 2rem 9%;
+  height:"10px";
+  display: flex;
+ 
+  align-items: center;
+background-color: azure;
+  transition: .3s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+
+}
+.logo{
+  
+  color:var(--text-color);
+  transition: .3s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+
+  cursor:default;
+  padding-top:25px;
+  padding-left:15px;
+ 
+}
+.logo:hover{
+  transition: .3s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color: aqua;
+
+}
+.navbar1 a{
+  font-size: 0.5rem;
+  color:var(--text-color);
+  margin-left:3.2rem;
+  transition: .3s;
+  text-align:left;
+}
+.navbar1 a:hover{
+  color:green;
+}
+.car{
+  height: 1150px;
+  width: 1150px;
+  background-color: blue;
+}
+.section2{
+  color:blue;
+  font-size: 12px;
+  text-align: center;
+ 
+}
+.car2{
+ 
+  font-size: 12px;
+  
+}
+.sect2{
+  color:blue;
+  font-size: 12px;
+  text-align: center;
+  
+}
+.card-container{
+  display:flex;
+  margin:20px;
+  background-color: peru;
+  gap:20px;
+  justify-content: center;
+flex-wrap: wrap;
+padding-left:12px;
+padding-top: 10px;
+padding-bottom:10px;
+transition: all 0.3s;
+box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.3s;
+  box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+.card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color: green;
+  color:white;
+  opacity: 1;
+}
+  .industry {
+    width:100%;
+    height:100%;
+  background-color:aqua ;
+  }
+  .num{
+    display:flex;
+    justify-content: space-evenly;
+    
+  }
+  h5{
+    text-align: center;
+    font-size: 34px;
+  }
+  .about{
+    height:100%;
+    width:100%;
+    background-color:aqua;
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:24px;
+    padding-top:24px;
+  
+    
+  }
+
+  .about:hover{
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    padding-left:12px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  background-color: green;
+  color:white;
+  opacity: 1;
+
+  }
+  
+  
+  h2{
+    text-align: center;
+  }
+  .home{
+    background-color: palegoldenrod;
+  }
+  .spa{
+    align-items: right;
+  }
+  .container1{
+    display: flex;
+    justify-items:space-between;
+    
+  }
+  .home1{
+    background-color: palegoldenrod;
+  }
+  .news1{
+    text-align: center;
+    
+  }
+  .news2{
+    color:blue;
+  }
+  .container-news{
+    display: flex;
+   
+    
+  }
+  .imagenews1{
+    text-align:center;
+  }
+  h6{
+    text-align: center;
+  }
+  .news1details{
+    height:100%;
+    width:100%;
+    background-color:whitesmoke;
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:24px;
+    padding-top:24px;
+  }
+   .news1details:hover{
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:12px;
+    padding-top:12px;
+   }
+   .image1{
+    text-align:center
+   }
+   .industry{
+    background-color:peru;
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    color:bisque
+   }
+   .industry:hover{
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:12px;
+    padding-top:12px;
+   }
+   .container5{
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .container5 div{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    margin:20px;
+    color: black;
+
+   }
+   .container5 li{
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    margin:20px;
+
+   } 
+   .container6 {
+    display: flex;
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left: 24px;
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+
+   }
+   .container6 div ul {
+    display :flex;
+    text-align:right;
+    gap:10px;
+    justify-content: space-between;
+    
+
+   }
+   
+   .container7{
+    display:flex;
+    margin:20px;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    background-color:palevioletred;
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+padding:12px 12px 12px 12px;
+   }
+   .container7 div{
+    display:flex;
+    margin:20px;
+    
+
+   }
+   .container7:hover{
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:12px;
+    padding-top:12px;
+   }
+   .container8{
+     display: flex;
+    
+      justify-content: space-between;
+    align-items: center;
+     flex-wrap: wrap;
+     padding-left: 30px;
+
+   }
+   .container8:hover{
+    transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding-left:12px;
+    padding-top:12px;
+
+   }
+   .container8 div{
+    display: flex;
+    margin:20px;
+     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+
+  }
+   .client{
+    display: flex;
+     margin:20px;
+     
+     align-items: center;
+     flex-wrap: wrap;
+     padding-left: 30px;
+     
+     background-color: aqua;
+     
+   }
+.client:hover{
+  transition: all 0.3s;
+    box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+ 
+   
+}
+.client1{
+  display: flex;
+  gap:10px;
+ 
+    background-color: blue;
+   flex-wrap: wrap;
+   padding: 20px 20px 20px 20px;
+   
+ }
+.client1:hover{
+transition: all 0.3s;
+  box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+
+  background-color:yellowgreen;
+  
+}
+.container-news{
+  display:flex;
+  gap:10px;
+  flex-wrap: wrap;
+  padding:10px 10px 10px 10px;
+  background-color: blue;;
+}
+.client1 .clientone{
+  display:flex;
+  justify-content: center;
+  width:120px;
+  height:120px;
+  background-color: beige;
+  transition: all 0.3s;
+  box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding:10px 10px 10px 10px;
+  
+}
+.client1 .clientone:hover{
+  width:120px;
+  height:120px;
+  background-color:pink;
+  transition: all 0.3s;
+  box-shadow: 0 0.6rem 1rem 0 rgba(0, 0, 0, 0.1);
+  justify-content: center;  
+ padding-top: 23px;
+
+}
+
